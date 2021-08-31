@@ -1,0 +1,77 @@
+h1 {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px;
+}
+
+.DivVersion {
+    border: 3px black solid;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#OuterBox {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+}
+
+#MiddleBox {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+
+#InnerBox {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+#TableVersion {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    align-items: center;
+}
+
+.td {
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.Left {
+    border-left: 3px solid black;
+}
+
+.Top {
+    border-top: 3px solid black;
+}
+
+.Bottom {
+    border-bottom: 3px solid black;
+}
+
+.Right {
+    border-right: 3px solid black;
+}
+
+.Red {
+    background-color: red;
+}
+
+.Blue {
+    background-color: blue;
+}
+
+.Center {
+    background-color: white;
+    border: 3px solid black;
+}
